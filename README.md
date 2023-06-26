@@ -47,6 +47,13 @@ This is an example of how to list things you need to use the software and how to
    npm run start
    ```
 
+### Launch
+<pre
+  <code>
+  <a href="http://localhost:4200/">Link to the App</a>
+  </code>
+</pre>
+
 ### Any Questions?
 
 - [![Mail][Mail.me]][Mail-url]

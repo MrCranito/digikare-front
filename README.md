@@ -1,27 +1,61 @@
-# DigikareFrontend
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="">
+    <img src="https://www.orthense.com/images/logos/orthense.png" alt="Logo" width="300" height="80">
+  </a>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.0.
+  <h3 align="center">Digikare-Test</h3>
+</div>
 
-## Development server
+### Infrastructure
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- [![Next][Next.js]][Next-url]
+- [![Angular][Angular.io]][Angular-url]
 
-## Code scaffolding
+<!-- GETTING STARTED -->
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Getting Started
 
-## Build
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Prerequisites
 
-## Running unit tests
+This is an example of how to list things you need to use the software and how to install them.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- npm
+  ```sh
+  npm install npm@latest -g
+  ```
 
-## Running end-to-end tests
+### Installation
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. Clone the 2 repos
+   ```sh
+   git clone https://github.com/MrCranito/digikare-front
+   ```
+   ```sh
+   git clone https://github.com/MrCranito/digikare-back
+   ```
+2. Install NPM packages inside the two repository
+   ```sh
+   npm install
+   ```
+3. Open a terminal && start the application for each repo
+   ```sh
+   npm run start
+   ```
 
-## Further help
+### Any Questions?
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- [![Mail][Mail.me]][Mail-url]
+
+<!-- MARKDOWN LINKS & IMAGES -->
+
+[Mail.Me]: https://img.shields.io/badge/Mail.me-000000?style=for-the-badge&logo=gmail&logoColor=white
+[Mail-url]: mailto:victor.moreau.31@gmail.com?subject=digikare
+[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[Next-url]: https://nextjs.org/
+[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
+[Angular-url]: https://angular.io/

@@ -1,5 +1,5 @@
 import { createReducer, on } from "@ngrx/store";
-import { UsersActions, UsersActionsSuccess } from "../actions/users.action";
+import { UsersActions, UsersActionsError, UsersActionsSuccess } from "../actions/users.action";
 import { User } from "src/app/shared/models/user/user.model";
 import { AuthActions } from "../actions/auth.action";
 
@@ -48,6 +48,18 @@ export const usersReducer = createReducer(
         return {
             ...state,
             user: null
+        }
+    }),
+    on(UsersActionsError.createUserError, (state) => {
+        return {
+            ...state,
+            isLoading: false
+        }
+    }),
+    on(UsersActionsError.getCurrentUserError, (state) => {
+        return {
+            ...state,
+            isLoading: false
         }
     }),
     on(AuthActions.logout, (state) => {

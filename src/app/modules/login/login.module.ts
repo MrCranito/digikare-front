@@ -13,7 +13,7 @@ import { provideMockStore } from "@ngrx/store/testing";
         FormsModule,
         ReactiveFormsModule,
         LoginRoutingModule, FormsModule, ReactiveFormsModule],
-    providers: [NotificationsService, provideMockStore({})],
+    providers: [NotificationsService],
 })
 
 export class LoginModule {}
